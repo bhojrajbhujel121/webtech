@@ -1,0 +1,55 @@
+<html>
+
+<head>	
+	
+	<title>Regestration Form</title>
+
+</head>
+<body style="background-color:aqua;">
+ <fieldset>
+    <label>FirstName:</label>
+  <input type="text"><br><br>
+     <label>MiddleName:</label>
+     <input type="text"><br><br>
+     <label>LastName:</label>
+     <input type="text"><br><br>
+     
+     <label for="Forms">Course</label>
+     
+        <select id="Course" name="Course">
+            <option ><strong>Course</strong></option>
+            <option >Bca</option>
+            <option >BHM</option>
+            <option >BBA</option>
+          </select>
+          <br><br>
+        <label >Gender:</label><br>
+        <label >Male</label>
+        <input type="radio" name="g1" id="g1"><br>
+        <label >Female</label>
+        <input type="radio" name="g1" id="g1"><br>
+	<label >other</label>
+        <input type="radio" name="g1" id="g1">
+        <br><br>
+
+        <label >Phone:</label>
+        <input type="tel" placeholder="+91" name="n1" id="n1" style="width: 30px;"><input type="tel" name="n1" id="n1">
+       <br><br>
+        <label >Address:</label><br>
+        <textarea name="message" rows="5" cols="30"></textarea> </p>
+        
+        <br>
+        
+        <label> Email:</label>
+        <input type="email">
+        <br><br>
+        <label >Password</label>
+        <input type="password" name="password" id="password">
+       
+        <br><br><label >Retype-Password:</label>
+        <input type="password" name="password" id="password">
+       <br><br>
+        <input type="submit">
+
+ </fieldset>
+</html>
