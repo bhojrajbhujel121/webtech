@@ -1,0 +1,48 @@
+.body{
+    background:rgba(0, 0, 0,0.175) url("justin-ziadeh-Xchu5q4NTvY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:max-content;
+
+}
+.ul {
+    list-style-type: none;
+    margin-left: 0%;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+    border-radius: 10px;
+  }
+  
+ .li {
+    float: right;
+  }
+  
+ .li a {
+    display: block;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin:0% 45px;
+  }
+  
+  .li a:hover {
+    color:chocolate;
+    border-radius: 30px;
+  }
+  .search{
+    margin-top: 20px;
+    margin-right: 15px;
+    
+  }
+  .h3{
+    margin-right: 67px;
+    font-size: 21px;
+    color: burlywood;
+    float: right;
+    margin-top: -21px;
+    margin-bottom: -2%;
+    margin-left: 0px;
+  }

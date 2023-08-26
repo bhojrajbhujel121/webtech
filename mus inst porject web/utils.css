@@ -1,0 +1,12 @@
+.br{
+    border-radius: 50px;
+}
+.button{
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-left:45%;
+}
+.button:hover{
+    background-color:cyan;
+}
